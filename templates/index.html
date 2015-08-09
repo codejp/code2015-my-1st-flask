@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <h1>{{ title }}</h1>
+    <ul>
+        {% for greeting in greetings: %}
+        <li>{{ greeting }} ({{ greeting | length }})</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
