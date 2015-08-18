@@ -13,15 +13,15 @@ example on PowerShell of Windows OS:
 ```
 PS> git clone https://github.com/codejp/code2015-my-1st-flask.git
 PS> cd ./code2015-my-1st-flask
-PS> virtualenv -p <path to python v.3.4> venv34
-PS> ./venv34/Scripts/activate.ps1
-(venv34)PS> pip install -r requirements.txt
+PS> virtualenv -p <path to python v.3.4> env
+PS> ./env/Scripts/activate.ps1
+(env)PS> pip install -r requirements.txt
 ```
 
 ### run / 実行
 example on PowerShell of Windows OS:
 ```
-(venv34)PS> python app.py
+(env)PS> python app.py
 ```
 
 after this, open `http://localhost:5000`
@@ -29,6 +29,6 @@ after this, open `http://localhost:5000`
 ### Deactivate environment / 環境の復帰
 example on PowerShell of Windows OS:
 ```
-(venv34)PS> ./venv34/Scripts/deactivate.bat
+(env)PS> ./env/Scripts/deactivate.bat
 PS>
 ```
