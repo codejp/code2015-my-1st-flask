@@ -32,3 +32,10 @@ example on PowerShell of Windows OS:
 (env)PS> ./env/Scripts/deactivate.bat
 PS>
 ```
+## Publish to internet / インターネット上への公開
+
+### Deploy to Microsoft Azure Web Apps / Microsoft Azure Web Apps への配置
+
+Click button bellow / 下記ボタンをクリック
+
+[![Deploy to Azure](https://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/)
